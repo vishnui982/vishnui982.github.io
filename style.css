@@ -1,0 +1,51 @@
+/* Fallback for devices without Baskerville installed (Windows, Android). */
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("fonts/libre-baskerville-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  src: url("fonts/libre-baskerville-700.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: Baskerville, "Baskerville Old Face", "Libre Baskerville", Georgia, serif;
+  font-size: 17px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+nav {
+  margin-bottom: 48px;
+}
+
+nav a {
+  margin-right: 20px;
+}
+
+a {
+  color: #000;
+}
+
+nav a.here {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+
+p {
+  margin: 0 0 24px;
+}
